@@ -14,7 +14,7 @@ h1 {
 }
 
 .col-1 {
-  /* flex: 1; */
+  flex: 1;
   display: flex;
   align-items: center;
   background-color: rgba(70, 75, 78, 0.7);
@@ -46,24 +46,23 @@ h1 {
 }
 
 .search-bar::placeholder {
-  color:#aeafb5;
+  color: #aeafb5;
 }
 
 .search-bar:focus-visible {
-  box-shadow: 1px 5px 5px rgba(57, 226, 157, 0.93)
+  box-shadow: 1px 5px 5px rgba(57, 226, 157, 0.93);
 }
 
-.search-bar:focus{
+.search-bar:focus {
   outline-color: #39e29d;
 }
 
 .search-select {
-  /* background-color: rgba(70, 75, 78, 0.8); */
-  padding: 5px;
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 10px;
+  width: 100%;
 }
 
 .search-select p {
@@ -72,14 +71,17 @@ h1 {
 }
 
 .right-side {
-  width: 100%;
+  flex-grow: 1; /* Allow the right-side div to grow */
+  display: flex; /* Ensure it can contain flex children */
 }
 
-.search-select select{
+.right-side select {
+  flex-grow: 1; /* Allow the select to take all available space */
   background-color: rgba(70, 75, 78, 0.01);
   border: 0px;
   color: #aeafb5;
-  width: 100%;
+  width: 100%; /* Ensure the select takes full width */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
 @media (max-width: 768px) {

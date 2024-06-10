@@ -67,7 +67,7 @@
 
 .card-header .stock {
   color: #35806d;
-  font-size: 8px;
+  font-size: 12px;
   border: solid #35806d;
   border-radius: 4px;
   padding: 2px 4px;
@@ -192,6 +192,38 @@
 .card-body .description {
   margin: 5px 0;
   color: #aeafb5;
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
+}
+
+/* xxl size */
+@media (min-width: 1200px) {
+
+  .card-header .stock {
+    font-size: 14px;
+  }
+
+  .card-body .item-name {
+    font-size: 18px;
+  }
+
+  .card-body .price {
+    font-size: 18px;
+  }
+
+  .card-body .discount {
+    font-size: 18px;
+  }
+
+  .card-body .description {
+    font-size: 16px;
+  }
+
+  .card-footer .left-side a {
+    font-size: 16px;
+  }
+
+  .card-footer .right-side a {
+    font-size: 16px;
+  }
 }
