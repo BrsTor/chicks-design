@@ -3,10 +3,7 @@ h1 {
 }
 
 .container {
-  padding: 5% 15% !important;
-  /* border: solid gray;
-  background-color: #aeafb5; */
-  padding: 10px;
+  padding-bottom: 20px;
 }
 
 .search-container {
