@@ -1,0 +1,47 @@
+[
+  {
+    "name": "CURRENCY",
+    "items": [
+      { "name": "Currency Link 1", "href": "#" },
+      { "name": "Currency Link 2", "href": "#" }
+    ]
+  },
+  {
+    "name": "ITEMS",
+    "items": [
+      { "name": "Item Link 1", "href": "#" },
+      { "name": "Item Link 2", "href": "#" },
+      { "name": "Item Link 3", "href": "#" }
+    ]
+  },
+  {
+    "name": "ACCOUNTS",
+    "items": [
+      {"name": "Account Link 1", "href":"#"},
+      {"name": "Account Link 2", "href":"#"}
+    ]
+  },
+  {
+    "name": "SERVICES",
+    "items": [
+      {"name": "Services Link 1", "href":"#"},
+      {"name": "Services Link 2", "href":"#"},
+      {"name": "Services Link 3", "href":"#"},
+      {"name": "Services Link 4", "href":"#"}
+    ]
+  },
+  {
+    "name": "SWAP",
+    "items": [
+      {"name": "Swap Link 1", "href":"#"},
+      {"name": "Swap Link 2", "href":"#"}
+    ]
+  },
+  {
+    "name": "SELL",
+    "items": [
+      {"name": "Sell Link 1", "href":"#"},
+      {"name": "Sell Link 2", "href":"#"}
+    ]
+  }
+]
