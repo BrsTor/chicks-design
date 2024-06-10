@@ -1,0 +1,64 @@
+.flex-container {
+  background-color: #303141;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex-start, .flex-end {
+  display: flex;
+  align-items: center;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+button {
+  background-color: #39e29d;
+  min-height: 50px;
+  min-width: 100px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  margin-left: 10px;
+}
+
+/* xs width */
+@media (max-width: 576px) {
+  .logo {
+    display: none;
+  }
+}
+
+/* sm width */
+@media (max-width: 768px) {
+  .logo {
+    display: none;
+  }
+
+  button {
+    min-height: 40px;
+    min-width: 80px;
+  }
+}
+
+/* Additional responsive adjustments */
+@media (max-width: 992px) {
+  .flex-end {
+    flex-basis: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .flex-start {
+    flex-basis: 100%;
+    justify-content: space-between;
+  }
+}

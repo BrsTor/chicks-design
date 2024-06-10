@@ -1,0 +1,20 @@
+<div class="flex-container">
+  <div class="flex-start">
+    <img class="logo" src="assets/svg/chicks-logo.svg" alt="logo"/>
+
+    <ng-container *ngFor="let dropdown of dropdownsList">
+      <app-dropdown [dropdownConfig]="dropdown" [iconRight]="subMenuIcon"></app-dropdown>
+    </ng-container>
+  </div>
+
+  <div class="flex-end">
+    <app-dropdown [dropdownConfig]="currencies" [iconRight]="subMenuIcon"></app-dropdown>
+    <app-dropdown [dropdownConfig]="shoppingList" [iconLeft]="cartIcon"></app-dropdown>
+    <ng-container>
+      <button>
+        SIGN IN
+        <img class="user-icon" src="assets/svg/user-icon.svg" alt="user-icon">
+      </button>
+    </ng-container>
+  </div>
+</div>

@@ -1,0 +1,10 @@
+<div class="dropdown">
+  <button class="dropbtn">
+    <img *ngIf="iconLeft" src={{iconLeft}} alt="icon">
+    {{ dropdownConfig.name }}
+    <img class="submenu-icon" *ngIf="iconRight" src={{iconRight}} alt="icon">
+  </button>
+  <div class="dropdown-content">
+    <a *ngFor="let item of dropdownConfig.items" [href]="item.href">{{ item.name }}</a>
+  </div>
+</div>
