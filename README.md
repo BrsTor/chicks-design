@@ -1,27 +1,78 @@
-# ChicksDesign
+                  
+ 
+<h1 align="center" style="font-weight: bold;">Chicks Gold Design 💻</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3.
 
-## Development server
+<p align="center">This a static responsive mockup developed with Angular, HTML and plain CSS.</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+ 
+<h2 id="technologies">💻 Technologies</h2>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular
+- TypseScript
+- HTML
+- CCS
+ 
+<h2 id="started">🚀 Getting started</h2>
 
-## Build
+Make sure you have installed the prerequisites and executed the following commands.
+ 
+<h3>Prerequisites</h3>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+This are necessary for running this project.
 
-## Running unit tests
+- [NodeJS](https://github.com/)
+- [Git 2](https://github.com)
+ 
+<h3>Cloning</h3>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Clone the project with the following command
 
-## Running end-to-end tests
+```bash
+git clone https://github.com/BrsTor/chicks-design.git
+```
+ 
+<h3>Starting</h3>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Go to the project folder
 
-## Further help
+```bash
+cd chicks-design
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Install the dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run start
+```
+
+If you want to build the project for production 
+
+```bash
+npm run build
+```
+
+ 
+<h2 id="contribute">📫 Contribute</h2>
+
+If you want to contribute to this project, do the following
+
+1. `git clone https://github.com/Fernanda-Kipper/text-editor.git`
+2. `git checkout -b feature/NAME`
+3. Follow commit patterns
+4. Open a Pull Request explaining the problem solved or feature made, if exists, append screenshot of visual modifications and wait for the review!
+ 
+<h3>Documentations that might help</h3>
+
+[📝 How to create a Pull Request](https://www.atlassian.com/br/git/tutorials/making-a-pull-request)
+
+[📝 Commit pattern](https://www.conventionalcommits.org/en/v1.0.0/#summary)
+
+[📝 Angular documentation](https://angular.dev/overview)
