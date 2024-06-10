@@ -49,7 +49,7 @@ button {
   }
 }
 
-/* Additional responsive adjustments */
+/* lg width */
 @media (max-width: 992px) {
   .flex-end {
     flex-basis: 100%;

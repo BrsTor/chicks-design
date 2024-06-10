@@ -1,3 +1,145 @@
-:host {
-  display: block;
+p {
+  color: #aeafb5;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #455575;
+  margin-top: 0px;
+}
+
+.container {
+  width: 100%;
+}
+
+.container-payment-methods {
+  background-color: #2b2c3b;
+  margin: 0;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.payment-methods {
+  margin: 0 15%;
+  display: flex;
+  flex: row wrap;
+  align-items: center;
+}
+
+.payment-methods img {
+  padding: 10px 5px;
+  max-width: 100px;
+  max-height: 40px;
+}
+
+.container-company {
+  background-color: #303141;
+  margin: 0;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.company {
+  margin: 0 15%;
+}
+
+.social-media {
+  padding: 10px 2px;
+  max-width: 100px;
+  max-height: 40px;
+}
+
+.social-media-discord{
+  padding: 11px 2px;
+  max-width: 100px;
+  max-height: 36px;
+}
+
+.payment-methods .crypto-coin {
+  max-width: 40px;
+  max-height: 25px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap:nowrap;
+  justify-content: space-evenly;
+}
+
+.flex-container img {
+  max-height: 30px;
+}
+
+.trustpilot-stars img{
+  width: 60px;
+  display: inline-block;
+}
+
+.trustpilot-stars p{
+  display: inline-block;
+  margin: 0px 4px !important;
+}
+.flex-container h4 {
+  color: #aeafb5;
+  margin: 12px;
+}
+
+.flex-container a, p{
+  color: #aeafb5;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 6px !important;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 20px 0;
+  background-color: #303141;
+}
+
+.copyright p {
+  margin: 0;
+  color: #aeafb5;
+}
+
+/* lg width */
+@media (max-width: 992px) {
+  .flex-container a, p{
+    font-size: 14px;
+  }
+}
+
+/* md width */
+@media (max-width: 768px) {
+  .flex-container a, p{
+    font-size: 12px;
+  }
+
+  .payment-methods {
+    margin: 0 10%;
+  }
+
+  .company {
+    margin: 0 10%;
+  }
+}
+
+/* xs width */
+@media (max-width: 576px) {
+  .flex-container a, p{
+    font-size: 12px;
+  }
+
+  .payment-methods {
+    margin: 0 5%;
+  }
+
+  .company {
+    margin: 0 5%;
+  }
 }
