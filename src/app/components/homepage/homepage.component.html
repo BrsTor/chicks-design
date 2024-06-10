@@ -4,7 +4,6 @@
     <app-search-bar></app-search-bar>
 
     <div class="items-container">
-
       <div class="sort-container">
         <div>
           <p>Showing 20 - from 125</p>
@@ -23,6 +22,22 @@
         </div>
       </div>
 
+      <div class="card-container">
+        <ng-container *ngFor="let card of itemList">
+          <app-card-item [item]="card"></app-card-item>
+        </ng-container>
+      </div>
+
+      <div class="pagination-container">
+        <a class="arrow" href="#"> &lt; </a>
+        <a href="#"> 1 </a>
+        <a href="#"> 2 </a>
+        <a href="#"> 3 </a>
+        <a href="#"> 4 </a>
+        <a href="#"> ... </a>
+        <a href="#"> 11 </a>
+        <a class="arrow" href="#"> &gt; </a>
+      </div>
     </div>
   </div>
 </div>

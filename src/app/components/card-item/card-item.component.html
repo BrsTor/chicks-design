@@ -1,0 +1,38 @@
+<div class="card">
+  <div class="card-header">
+    <div class="left-side">
+      <div *ngIf="item.sale" class="sale-container">
+        <div class="sale-dot"></div>
+        <p class="sale">ON SALE</p>
+      </div>
+      <p *ngIf="item.stock" class="stock">In stock</p>
+    </div>
+    <div class="right-side">
+      <input *ngIf="item.stock" type="number" name="qty" id="qty" min="1" value="1" />
+    </div>
+  </div>
+
+  <div class="card-body">
+    <img [src]="item.img" alt="crowbar" />
+    <p class="item-name">{{item.name}}</p>
+    <div class="price-container">
+      <p class="price">${{item.price}}</p>
+      <p *ngIf="item.discount" class="discount">${{item.price * (100 + item.discount) / 100}}</p>
+    </div>
+    <p class="description">{{item.description}}</p>
+  </div>
+
+  <div class="card-footer">
+    <div class="left-side">
+      <a href="#">DETAILS</a>
+    </div>
+    <div class="right-side">
+      <a *ngIf="item.stock" href="#"
+        >ADD
+        <div class="icon-box">
+          <img src="assets/svg/cart-icon.svg" alt="cart-icon" />
+        </div>
+      </a>
+    </div>
+  </div>
+</div>

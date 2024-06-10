@@ -1,0 +1,81 @@
+[
+  {
+    "sale": true,
+    "stock": true,
+    "img": "assets/img/crowbar.png",
+    "name": "Crowbar",
+    "price": 400.00,
+    "discount": 20,
+    "description": "Some description"
+  },
+  {
+    "sale": true,
+    "stock": false,
+    "img": "assets/img/hatchet.png",
+    "name": "Hatchet",
+    "price": 450.00,
+    "description": "Some description"
+  },
+  {
+    "sale": false,
+    "stock": false,
+    "img": "assets/img/crowbar.png",
+    "name": "Crowbar",
+    "price": 400.00,
+    "description": "Some description"
+  },
+  {
+    "sale": true,
+    "stock": true,
+    "img": "assets/img/revolver.png",
+    "name": "Revolver",
+    "price": 800.00,
+    "discount": 10,
+    "description": "Some description"
+  },
+  {
+    "sale": false,
+    "stock": true,
+    "img": "assets/img/m1911.png",
+    "name": "M1911",
+    "price": 800.00,
+    "discount": 10,
+    "description": "Some description"
+  },
+  {
+    "sale": true,
+    "stock": true,
+    "img": "assets/img/crowbar.png",
+    "name": "Crowbar",
+    "price": 400.00,
+    "discount": 20,
+    "description": "Some description"
+  },
+  {
+    "sale": true,
+    "stock": true,
+    "img": "assets/img/crowbar.png",
+    "name": "Crowbar",
+    "price": 400.00,
+    "discount": 20,
+    "description": "Some description"
+  },
+  {
+    "sale": true,
+    "stock": true,
+    "img": "assets/img/crowbar.png",
+    "name": "Crowbar",
+    "price": 400.00,
+    "discount": 20,
+    "description": "Some description"
+  },
+  {
+    "sale": true,
+    "stock": true,
+    "img": "assets/img/crowbar.png",
+    "name": "Crowbar",
+    "price": 400.00,
+    "discount": 20,
+    "description": "Some description"
+  }
+]
