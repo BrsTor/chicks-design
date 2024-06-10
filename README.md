@@ -22,8 +22,9 @@ Make sure you have installed the prerequisites and executed the following comman
 
 This are necessary for running this project.
 
-- [NodeJS](https://github.com/)
-- [Git 2](https://github.com)
+- [NodeJS](https://nodejs.org/en/download/package-manager)
+- [Git 2](https://www.git-scm.com/downloads)
+- [Angular CLI](https://v17.angular.io/guide/setup-local#install-the-angular-cli)
  
 <h3>Cloning</h3>
 
